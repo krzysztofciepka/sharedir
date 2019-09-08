@@ -1,0 +1,28 @@
+{
+  "name": "sharedir",
+  "version": "0.1.0",
+  "description": "Share local directory content online quickly",
+  "main": "index.js",
+  "bin": {
+    "sharedir": "bin/sharedir"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "share",
+    "dlisting",
+    "autoindex",
+    "directory"
+  ],
+  "author": "kciepka <krzysztof@ciepka.com>",
+  "license": "MIT",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "express": "^4.17.1",
+    "mime-types": "^2.1.24",
+    "nat-tunnel": "^0.1.2",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.14.1"
+  }
+}
