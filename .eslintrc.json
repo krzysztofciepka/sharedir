@@ -15,6 +15,7 @@
   },
   "rules": {
     "no-return-assign": "off",
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "global-require": "off"
   }
 }
