@@ -1,6 +1,6 @@
 {
   "name": "sharedir",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Share local directory content online",
   "main": "index.js",
   "bin": {
