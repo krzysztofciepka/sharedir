@@ -1,6 +1,6 @@
 {
   "name": "sharedir",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Share local directory content online",
   "main": "index.js",
   "bin": {
@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "mime-types": "^2.1.24",
     "nat-tunnel": "^0.1.2",
-    "serve-index": "krzysztofciepka/serve-index",
+    "serve-index": "git+https://github.com/krzysztofciepka/serve-index.git",
     "serve-static": "^1.14.1"
   },
   "devDependencies": {
