@@ -1,11 +1,12 @@
 {
   "name": "sharedir",
   "version": "0.1.0",
-  "description": "Share local directory content online quickly",
+  "description": "Share local directory content online",
   "main": "index.js",
   "bin": {
     "sharedir": "bin/sharedir"
   },
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,5 +25,18 @@
     "nat-tunnel": "^0.1.2",
     "serve-index": "^1.9.1",
     "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "homepage": "https://github.com/krzysztofciepka/sharedir#readme",
+  "bugs": {
+    "url": "https://github.com/krzysztofciepka/sharedir/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysztofciepka/sharedir.git"
   }
 }
