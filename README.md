@@ -18,4 +18,4 @@ in the directory you want to put online
 
 ## How it works
 
-Tool is just a wrapper around [serve-index](https://www.npmjs.com/package/serve-index) to spin up local directory listing server and [nat-tunnel](https://www.npmjs.com/package/nat-tunnel) to put it online under nat-tunnel.tk
+It is just a wrapper around slightly modified [serve-index](https://www.npmjs.com/package/serve-index) fork available [here](https://github.com/krzysztofciepka/serve-index) and [nat-tunnel](https://www.npmjs.com/package/nat-tunnel)
