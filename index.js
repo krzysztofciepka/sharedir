@@ -5,9 +5,9 @@ const natTunnel = require('nat-tunnel');
 const app = express();
 
 module.exports = {
-  share: () => {
+  share: (customName) => {
     // generate unique base path
-    const basePath = crypto.randomBytes(8).toString('hex');
+    const basePath = customName || crypto.randomBytes(8).toString('hex');
 
     // select some random port from 30000-40000 range
     const port = Math.round(Math.random() * (40000 - 30000) + 30000);
